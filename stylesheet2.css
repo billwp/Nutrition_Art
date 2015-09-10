@@ -1,0 +1,42 @@
+#front
+{
+    background-image: url("images/soup2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    alt: "front-image";
+}
+#title_box
+{
+    margin-top: 50px;
+}
+#title
+{
+    font-family: 'Source Sans Pro', SourceSansPro,sans-serif;
+    font-size: 110px ;
+    color: #222223;
+    /*color: black;*/
+    text-align: center;
+}
+
+#menu_bar
+{
+    text-align: center;
+}
+
+#menu_bar_table
+{
+    margin: 0 auto;
+    font-size: 35px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#menu_bar_table td
+{
+    padding: 40px;
+    border: 2px solid black;
+}
+
+.round_button
+{
+
+}

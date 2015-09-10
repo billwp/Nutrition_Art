@@ -1,0 +1,159 @@
+#front
+{
+    background-image: url("images/soup2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    alt: "front-image";
+}
+#title_box
+{
+    margin-top: 20%;
+}
+#title
+{
+    font-family: 'Source Sans Pro', SourceSansPro,sans-serif;
+    font-size: 110px ;
+    /*color: #222223;*/
+    color: black;
+    text-align: center;
+}
+#down_menu_box
+{
+    text-align: center;
+}
+
+ul#down_menu{
+    padding: 0;
+    display: inline-block;
+}
+
+ul#down_menu li {
+    display: inline;
+    font-size: 50px;
+}
+
+ul#down_menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#down_menu li a:hover {
+    background-color: darkorange;
+}
+
+.proccess_bar {
+    width: 500px;
+    height: 10px;
+    background: grey;
+    border-radius: 10px;
+    /*margin:0;*/
+    top: 10%;
+}
+.top_circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    color: grey;
+    margin: 0 auto;
+    position: absolute;
+    top: 34px;
+    left: 30px;
+    text-align:center;
+}
+.top_circle2
+{
+    margin: 0 auto;
+    position: absolute;
+/*    top: 30px;
+    left: 200px;*/
+    text-align:center;
+    margin-top: 10%;
+    top: 10%;
+}
+
+/*.bottom{
+    margin:0;
+    top: 50px;
+    left: 50px;
+}
+
+.top{
+    margin: 0 auto;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-align:center;
+}*/
+.bar_table_alignment
+{
+    margin-top: 10%;
+}
+.center_alignment
+{
+    margin: 0 auto;
+}
+
+.food_box
+{
+    margin-top: 40%;
+   /* width: 50%;*/
+}
+ul#left_scroll_food_menu{
+    list-style-type:none;
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+ul#left_scroll_food_menu li{
+    display:inline;
+}
+/*ul#left_scroll_food_menu li table{
+    display:inline;
+}*/
+ul#left_scroll_food_menu li div{
+    display:inline;
+}
+.food_area{
+    width: 100px;
+    height: 100px;
+}
+/*ul#left_scroll_food_menu li table td{
+    display:inline;
+    width: 200px;
+}*/
+/*.image_row
+{
+    height: 200px;
+}
+.description_row
+{
+    height: 100px;
+}*/
+.stretched_images
+{
+    max-width: 100%;
+    max-height: 70%;
+/*    height: 100%;
+    width: 100%;*/
+    margin-top: 0px;
+}
+/*
+.close-btn {
+    border: 2px solid #c2c2c2;
+    position: relative;
+    padding: 1px 5px;
+    top: -20px;
+    background-color: #605F61;
+    left: 198px;
+    border-radius: 20px;
+}
+
+.close-btn a {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}*/

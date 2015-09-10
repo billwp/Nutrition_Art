@@ -1,0 +1,51 @@
+table#ordered{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+}
+table#ordered tr th{
+    border: 1px solid black;
+}
+table#ordered tr td{
+    border: 1px solid black;
+    text-align: center;
+}
+.center_alignment
+{
+    margin: 0 auto;
+}
+ul#left_scroll_list{
+    list-style-type:none;
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+ul#left_scroll_list li{
+    display:inline;
+}
+ul#left_scroll_list li table{
+    display:inline;
+    border: 1px solid black;
+}
+ul#left_scroll_list li table tr td{
+    border: 1px solid black;
+}
+.picture_col{
+    width: 175px;
+    height: 175px;
+}
+.description_col{
+    width: 175px;
+    height: 75px;
+}
+ul#left_scroll_list li table tr td img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#food_list{
+    width: 700px;
+    margin-top: 200px;
+}

@@ -1,0 +1,12 @@
+ul{
+    list-style-type:none;
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+li{
+    display:inline;
+}
+body{
+    background-color: aqua;
+}
